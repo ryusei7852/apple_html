@@ -47,19 +47,75 @@
     width: 20%;
     height: 400px;
     background-color: cornflowerblue;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .right-menu {
     width: 80%;
     height: 400px;
     background-color: coral;
-    float: right;
+    display: inline-block;
 }
 
 .footer {
     width: 100%;
     height: 100px;
     background-color: grey;
-    clear: both;
+    /* clear: both;*/
+}
+
+.mainbox {
+    width: 800px;
+}
+
+.nameheader {
+    width: 70%;
+    height: 50px;
+    background-color: grey;
+    float: left;
+}
+
+.maincontent {
+    width: 70%;
+    height: 150px;
+    float: left;
+}
+
+.photobox {
+    width: 30%;
+    height: 200px;
+    background-color: beige;
+    float: right;
+}
+
+.profilephoto {
+    width: 50px;
+    position: absolute;
+    top: 14px;
+}
+
+.photoboxphoto {
+    width: 220px;
+    position: absolute;
+    top: 25px;
+    left: 580px;
+}
+
+.contenthead {
+    height: 25px;
+    position: absolute;
+    left: 20px;
+    top: 70px;;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contentmain {
+    height: 40px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 20px;
+    top: 110px;
+    font-size: 12.5px;
 }
