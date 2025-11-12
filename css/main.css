@@ -35,6 +35,9 @@
 
 .container {
     width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -70,9 +73,8 @@
 }
 
 .nameheader {
-    width: 70%;
+    width: 6%;
     height: 50px;
-    background-color: grey;
     float: left;
 }
 
@@ -85,7 +87,6 @@
 .photobox {
     width: 30%;
     height: 200px;
-    background-color: beige;
     float: right;
 }
 
@@ -106,16 +107,62 @@
     height: 25px;
     position: absolute;
     left: 20px;
-    top: 70px;;
+    top: 70px;
     font-size: 16px;
     font-weight: bold;
 }
 
 .contentmain {
-    height: 40px;
-    background-color: cadetblue;
+    height: 60px;
     position: absolute;
     left: 20px;
     top: 110px;
     font-size: 12.5px;
+}
+
+.nameheader2 {
+    width: 45%;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+}
+
+.nameheader3 {
+    width: 45%;
+    height: 20px;
+    position: absolute;
+    left: 72px;
+    top: 30px;
+}
+
+.nametag2 {
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.mainread {
+    color: dimgrey;
+}
+
+.blog-content {
+    width: 80%;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+}
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.blog-profile {
+    width: 50px;
+    float: left;
+}
+
+.blog-name {
+    float: left;
 }
