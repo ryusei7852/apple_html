@@ -247,9 +247,135 @@ body {
     font-size: 14px;
 }
 
-input[type=text] {
+/* input[type=text] {
     padding: 10px;
     font-size: 20px;
     border: 1px solid black;
     border-radius: 5px;
+} */
+
+.main-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 500px;
+    background-color: white;
+
+}
+
+.title-box{
+    position: fixed;
+    top: 5%;
+    left: 7%;
+
+    font-size: 25px;
+}
+
+.Email-box{
+    position: fixed;
+    top: 17%;
+    left: 9%;
+}
+
+.First-name{
+    position: fixed;
+    top: 33%;
+    left: 9%;
+}
+
+.Last-name{
+    position: fixed;
+    top: 33%;
+    left: 54%;
+}
+
+.Message{
+    position: fixed;
+    top: 49%;
+    left: 9%;
+}
+
+.Subscribe{
+    position: fixed;
+    top: 89%;
+    left: 12%;
+    font-size: 13px;
+}
+
+input[type=text],
+input[type=email] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 3px;
+}
+
+.input-email{
+    position: fixed;
+    top: 23%;
+    left: 8%;
+    width: 80%;
+    height: 3%;
+}
+
+.input-First{
+    position: fixed;
+    top: 39%;
+    left: 8%;
+    width: 35%;
+    height: 3%;
+}
+
+.input-Last{
+    position: fixed;
+    top: 39%;
+    left: 53%;
+    width: 35%;
+    height: 3%;
+}
+
+.input-Message{
+    position: fixed;
+    top: 55%;
+    left: 8%;
+    width: 80%;
+    height: 25%;
+}
+
+.select{
+    position: fixed;
+    top: 90%;
+    left: 8%;
+    width: 13px;
+    height: 13px;
+
+    padding: 0;
+    
+
+    appearance: none;
+    background-color: rgb(160, 160, 160);
+    border: none;
+    border-radius: 3px;
+}
+
+.button-send{
+    position: fixed;
+    top: 87%;
+    left: 65%;
+    width: 28%;
+    height: 6%;
+
+    border-radius: 3px;
+    border: none;
+
+    background-color: rgb(255, 170, 0);
+    font-size: 16px;
+    color: white;
+}
+
+.main-background-color{
+    background-color: rgb(34, 34, 34);
 }
