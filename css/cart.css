@@ -1,0 +1,81 @@
+table {
+    border-collapse: collapse;
+    position: fixed;
+    top: 100px;
+    left: 70px;
+
+    background-color: rgb(223, 223, 223);
+}
+
+td {
+    border: 1px solid black
+}
+
+.photo {
+    width: 120px;
+    height: 30px;
+}
+.td-blank {
+    width: 15px;
+    height: 30px;
+    text-align: center;
+}
+.ITEM {
+    width: 200px;
+    height: 30px;
+    text-align: left;
+}
+
+.AMOUNT{
+    width: 100px;
+    height: 30px;
+    text-align: right;
+}
+
+.PRICE {
+    width: 100px;
+    height: 30px;
+    text-align: right;
+}
+
+.TOTAL {
+    width: 100px;
+    height: 30px;
+    text-align: right;
+}
+
+.ITEM-photo {
+    width: 15px;
+    height: 70px;
+}
+
+.last-cell {
+    width: 100px;
+    height: 50px;
+
+    text-align: right;
+    font-size: 20px;
+}
+
+
+
+
+.main-background {
+    background-color: rgb(134, 186, 180);
+}
+
+.main-title {
+    position: relative;
+    font-size: 32px;
+}
+
+.main-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color:burlywood ;
+    width: 800px;
+    height: 500px;
+}
