@@ -1,52 +1,103 @@
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px;
+
     position: fixed;
     top: 100px;
-    left: 70px;
+    left: 50px;
 
     background-color: rgb(223, 223, 223);
 }
 
-td {
-    border: 1px solid black
+
+tr,td {
+    border-bottom: 1px solid #c2d3de;
 }
 
 .photo {
     width: 120px;
     height: 30px;
 }
+
+.photo img {
+    width: 70%;
+    height: auto;
+    display: block;
+
+    margin-left: auto;
+    margin-right: 10px;
+}
+
 .td-blank {
-    width: 15px;
+    width: 30px;
     height: 30px;
     text-align: center;
 }
 .ITEM {
-    width: 200px;
+    width: 230px;
     height: 30px;
     text-align: left;
+    font-size: 13px;
+    color:rgb(119, 119, 119);
+}
+
+.ITEM-photo {
+    width: 15px;
+    height: 90px;
+
+    color:rgb(119, 119, 119);
 }
 
 .AMOUNT{
     width: 100px;
     height: 30px;
     text-align: right;
+    font-size: 13px;
+    color:rgb(119, 119, 119);
+}
+
+.AMOUNT-sub{
+    width: 100px;
+    height: 30px;
+    text-align: right;
+    font-weight: normal;
+
+    color:rgb(119, 119, 119);
 }
 
 .PRICE {
     width: 100px;
     height: 30px;
     text-align: right;
+    font-size: 13px;
+    color:rgb(119, 119, 119);
+}
+
+.PRICE-sub {
+    width: 100px;
+    height: 30px;
+    text-align: right;
+    font-size: 15px;
+    color:rgb(119, 119, 119);
 }
 
 .TOTAL {
     width: 100px;
     height: 30px;
     text-align: right;
+    font-size: 13px;
+    color:rgb(119, 119, 119);
 }
 
-.ITEM-photo {
-    width: 15px;
-    height: 70px;
+.TOTAL-sub {
+    width: 100px;
+    height: 30px;
+    text-align: right;
+    font-size: 15px;
+    color:rgb(30, 58, 134);
 }
 
 .last-cell {
@@ -54,14 +105,11 @@ td {
     height: 50px;
 
     text-align: right;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-
-
-
 .main-background {
-    background-color: rgb(134, 186, 180);
+    background-color: #c2d3de;
 }
 
 .main-title {
@@ -75,7 +123,60 @@ td {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color:burlywood ;
     width: 800px;
     height: 500px;
+
+    font-weight: bold;
+}
+
+.main-head {
+    position: fixed;
+    left: 52px;
+    top: 40px;
+    font-size: 27px;
+    font-weight: normal;
+    color:rgb(30, 58, 134)
+}
+
+.caption {
+    font-weight: normal;
+    text-decoration: underline;
+    color:rgb(30, 58, 134);
+
+    position: fixed;
+    left: 52px;
+    top: 390px;
+}
+
+.button {
+    width: 260px;
+    height: 60px;
+
+    position: fixed;
+    top: 390px;
+    left: 482px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(30, 58, 134);;
+
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+    font-weight: 0px;
+
+    cursor: pointer;
+}
+.button:hover {
+    background-color:chocolate;
+}
+.button:focus {
+    background-color: black;
+}
+.button:active {
+    background-color: brown;
+}
+
+.sony {
+    width: 70px;      /* 원하는 가로 크기 입력 (px 또는 %) */
+    height: auto;
 }
